@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "551472814766",
+    "firebase_url": "https://auth-demo-53175.firebaseio.com",
+    "project_id": "auth-demo-53175",
+    "storage_bucket": "auth-demo-53175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551472814766:android:c809aba16e6fc954",
+        "android_client_info": {
+          "package_name": "com.android.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551472814766-vg4mtatsst336dif7en05o29qmi67e8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZJl0f4GNIlJdHubg2o-P3VvnpsO2gCv4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

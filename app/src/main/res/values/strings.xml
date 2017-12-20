@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseDemo</string>
+    <string name="form_username">Username</string>
+    <string name="form_password">Password</string>
+    <string name="form_submit">Login</string>
+    <string name="form_create">Create Account</string>
+</resources>

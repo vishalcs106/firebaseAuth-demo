@@ -29,7 +29,6 @@ public class MainActivity extends BaseActivity implements LoginViewInterface{
     LoginPresenter loginPresenter;
     ActivityMainBinding binding;
     UserLogin userLogin = new UserLogin();
-    static final int LOCATION_PERMISSION_REQUEST_CODE = 10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +56,6 @@ public class MainActivity extends BaseActivity implements LoginViewInterface{
 
     @Override
     public void onSuccess(UserLogin userLogin) {
-       showToast("Success");
        Paper.book().write(Constants.KEY_USER, userLogin);
         getToNextActivity();
     }

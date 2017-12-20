@@ -117,10 +117,6 @@ public class PlacesActivity extends BaseActivity implements OnMapReadyCallback, 
     }
 
     private void getNearbyGasStations() {
-        String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" +
-                location.getLatitude()+","+location.getLongitude()+
-                "&radius=10000&rank_by=distance&type=gas_station&key=" +
-                "AIzaSyDrkRmAYiVl6v9iQrBcvtgEwGJdPs06Ai4";
         placesPresenter.getPlaces(location.getLatitude()+","+location.getLongitude());
     }
 
